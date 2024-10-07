@@ -16,6 +16,7 @@ Mysql_OOP.py: Working with MySQL Database
 Manager.py: Working with data from JSON file
 
 File for analyzing:
+
 tracker.py: perform tasks to calculate the performance of work, and make report/chart
 
 
