@@ -139,9 +139,9 @@ class TaskTable(Database):
         for k, v in updates.items():
             if i>0:
                 str_exe += ', ' 
-        str_exe += k + ' = ' + '%s'
-        values.append(v)
-        i += 1
+            str_exe += k + ' = ' + '%s'
+            values.append(v)
+            i += 1
 
         values.append(task_id)
         sql = f'update {self.table_name} set {str_exe} where id = %s'
